@@ -19,9 +19,9 @@ interface Product {
 
 export class AppComponent {
 
-  
+
   producto1: Product = {
-   
+
     name: 'Mouse',
     price: 1500,
     inStock: true
@@ -30,7 +30,7 @@ export class AppComponent {
   producto2: Product = {
 
     name: 'Laptop',
-    price: 2000,
+    price: 20000,
     inStock: false
   }
 
@@ -65,7 +65,7 @@ totalPrecio!: number;
     this.totalPrecio = this.carritoCompras.reduce((sum, item) => sum + item.price, 0);
   }
 
-  
+
 }
 
 
