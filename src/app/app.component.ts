@@ -23,7 +23,7 @@ export class AppComponent {
   producto1: Product = {
 
     name: 'Mouse',
-    price: 15001,
+    price: 250,
     inStock: true
   }
 
